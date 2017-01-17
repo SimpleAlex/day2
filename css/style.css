@@ -1,0 +1,68 @@
+body {
+  background: #1abc9c;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #2980b9;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+.countdownContainer {
+  text-align: center;
+  background: #212129;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: #fff;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+}
+.names {
+  display: inline-block;
+  border-right: #d4d421 5px solid;
+  padding: 5px;
+}
+
+.info {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 720px) {
+  ul li {
+    display: block;
+  }
+  .names {
+    display: block;
+    border-bottom: #d4d421 5px solid;
+    width: 93%;
+    left: 0;
+    right: 0;
+    border-right: none;
+  }
+}
