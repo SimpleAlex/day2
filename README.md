@@ -1,0 +1,3 @@
+# day2
+Day second, I made a countdown for challenge ending...
+2017 ©Copyright by Alex Tkachov
